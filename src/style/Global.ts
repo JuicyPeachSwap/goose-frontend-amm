@@ -3,6 +3,12 @@ import { createGlobalStyle } from 'styled-components'
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.colors.background};
+   
+
+    @font-face {
+      font-family: 'helvetica';
+    }
+
 
     img {
       height: auto;
