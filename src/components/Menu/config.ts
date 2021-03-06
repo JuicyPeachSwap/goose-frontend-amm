@@ -72,7 +72,7 @@ const config: MenuEntry[] = [
       },
       {
         label: "Blog",
-        href: "https://juicypeachswap.medium.com/",
+        href: "https://medium.com/@peachswap_83741",
       },
     ],
   },
