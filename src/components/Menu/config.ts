@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: 'https://www.peachswap.finance/'
   },
   {
     label: 'Trade',
@@ -13,23 +13,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: '/swap'
+        href: 'https://exchange.peachswap.finance/'
       },
       {
         label: 'Liquidity',
-        href: '/pool'
+        href: 'https://exchange.peachswap.finance/#/pool'
       }
     ]
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
+    href: 'https://www.peachswap.finance/farms'
   },
   {
-    label: 'Nests',
+    label: 'Baskets',
     icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
+    href: 'https://www.peachswap.finance/baskets'
   },
   // {
   //   label: 'Lottery',
@@ -42,20 +42,20 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+        href: 'https://pancakeswap.info/token/0x9066e87Bac891409D690cfEfA41379b34af06391', // TACO address - to be changed
       },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
+      //  {
+      //  label: 'CoinGecko',
+      //  href: 'https://www.coingecko.com/en/coins/goose-finance',
+      //  },
+      //  {
+      //  label: 'CoinMarketCap',
+      //  href: 'https://coinmarketcap.com/currencies/goose-finance/',
+      //  },
+      //  {
+      //  label: 'AstroTools',
+      //  href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      //  },
     ]
   },
   {
@@ -64,33 +64,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/JuicyPeachSwap/",
       },
       {
         label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        href: "https://juicypeachswap.gitbook.io/JuicyPeachSwap/",
       },
       {
         label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        href: "https://juicypeachswap.medium.com/",
       },
     ],
   },
-  {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
-  },
+
 ]
 
 export default config
