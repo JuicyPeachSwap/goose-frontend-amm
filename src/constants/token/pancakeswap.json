@@ -13,7 +13,7 @@
     {
       "name": "Peach",
       "symbol": "PEACH",
-      "address": "0x9469B619f991a63b59C333f5ffc86FD3011Ce044", //  testnet address - to be updated 
+      "address": "0x9469B619f991a63b59C333f5ffc86FD3011Ce044",
       "chainId": 56,
       "decimals": 18
     },
