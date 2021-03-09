@@ -68,7 +68,7 @@ const config: MenuEntry[] = [
       },
       {
         label: "Docs",
-        href: "https://juicypeachswap.gitbook.io/JuicyPeachSwap/",
+        href: "https://peachswap.gitbook.io/juicypeachswap/",
       },
       {
         label: "Blog",
